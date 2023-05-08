@@ -1,0 +1,175 @@
+body{
+    font-family: 'Outfit';
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-size: 18px;
+}
+
+/*Sizing*/
+@media (max-width: 600px) {
+    #card-box, #equi-img, hr, .center, #view-img{
+        width: 85%;
+        margin: 0 auto;
+    }   
+    #card-box{
+        margin-top: 25%;
+        padding: 5% 0;
+    }
+    #square{
+        position: absolute;
+        width: 85%;
+        height: 98%;
+        margin-left: -2.5%;
+    }
+}
+@media (min-width: 600px){
+    #square{
+        width: 80%;
+        height: 98%;
+    }
+    #equi-img, hr, .center{
+        width: 80%;
+        margin: 0 auto;
+    }
+    #card-box{
+        margin-top: 8%;
+        padding: 1% 0;
+    }  
+}
+@media (min-width: 600px) and (max-width: 870px){
+    #card-box{
+        width: 50%;
+    }  
+}
+@media (min-width: 870px) and (max-width: 970px){
+    #card-box{
+        width: 45%;
+    }  
+}
+@media (min-width: 970px) and (max-width: 1550px){
+    #card-box{
+        width: 30%;
+    }   
+}
+@media (min-width: 1501px){
+    #card-box{
+        width: 20%;
+    }   
+}
+
+
+#card-box{
+    background-color: hsl(216, 50%, 16%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+/*Image section*/
+#img-box{
+    position: relative;
+}
+#equi-img{
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+}
+#square{
+    position: absolute;
+    background-color: hsl(178, 100%, 50%);
+    left: 10%;
+    bottom: 2%;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+#view-img{
+    position: absolute;
+    width: 12%;
+    left: 44%;
+    bottom: 44%;
+}
+#equi-img:hover{
+    z-index: 0;
+}
+
+
+/*Title and description section*/
+#equi-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#equi-title:hover{
+    color: hsl(178, 100%, 50%);
+}
+#equi-sub{
+    font-weight: 300;
+    font-size: 1.20rem;
+    text-align: left;
+    color: hsl(215, 51%, 70%);
+}
+
+/*Price and days section*/
+#price-and-days{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    font-size: 1.05rem;
+}
+
+#equi-price{
+    text-align: left;  
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+#clock-img, #price-icon{
+    margin-right: 5px;
+    vertical-align: sub;
+}
+
+#equi-days{
+    float: right;
+    text-align: right;
+    color: hsl(215, 51%, 70%);
+}
+
+/*Horizontal line*/
+hr{
+    border-color: hsl(215, 32%, 27%);
+}
+
+/*Creation by*/
+#creation-by{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#equi-by{
+    font-size: 1.08rem;
+    text-align: left;
+    margin-left: 15%;
+    padding-top: 2%;
+    color: hsl(215, 51%, 70%);
+}
+#equi-avatar{
+    width: 10%;
+    float: left;
+    border-color: white;
+    border: 1px solid;
+    border-radius: 100%;
+}
+#equi-by-name{
+    color: white;
+    text-decoration: none;
+}
+#equi-by-name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+/*Attribution section*/
+.attribution{
+    clear: left;
+}
